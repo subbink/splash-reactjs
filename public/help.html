@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Help for splash-js | Standalone javascript program to edit lenex
+      files</title>
+    <link href="splash-js_S_64x64.ico" rel="shortcut icon"
+      type="image/vnd.microsoft.icon" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <script type="text/javascript" src="lib/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="splash.css" />
+  </head>
+  <body>
+    <img src="splash-js-logo.png" />
+    <h1>splash-js help</h1>
+      <p>This page will give some information about how
+      <a href="splash.html">splash-js</a> can be used</p>
+      <p class="text-danger">REMEMBER: no information is saved until you export
+      and download the changes</p>
+      <h2>Loading files</h2>
+        <p>You can load one competition file and multiple club files</p>
+      <h2>Work flow</h2>
+        <p>To enter a compition, you have to load a competition file (.lxf or
+        lef file received from the orginisation) with the left browse
+        button:</p>
+        <div>
+          <label for="meetFile">Competition</label>
+          <input class="btn btn-default" type="file" /><br />
+        </div>
+        <p>You can only load 1 competition file at a time. When you load an
+        other file, the previous file is discarded</p>
+        <p>After loading the competition file, you can use one of the following
+        ways to create a club (on the right side of the screen):</p>
+        <ul>
+          <li>load a previous competition file;</li>
+          <li>load a previous exported club file;</li>
+          <li>Use the add Club button.<button class="btn btn-default btn-sm"
+            type="button">Add Club</button></li>
+        </ul>
+        <h3>Viewing the sessions</h3>
+        <p>After loading the competition, you can see the details of the event
+        clicking on the orange button.</p>
+        <p>When clicking on the session date (+ time) you will get the list of
+        events. Under these events the athletes will be shown who participate
+        in the events</p>
+        <h3>Subscribe athletes to the events</h3>
+        <p>To subscribe to an event, you have to click on an athlete and choose
+        "Competition" then a list of available events are shown. Use the
+        checkbox to subscribe to the event and choose a time from the select
+        box, or enter a time.</p>
+        <h3>Saving the changes</h3>
+        <p>To save the changes, you have to use the <button
+          class="btn btn-default btn-sm" type="button">Export</button> button
+        and then use the "download" link to save the changes to a file.</p>
+        <p>The exported competition can be send to the organisation. The
+        exported club(s) can be used to load the club again for a next
+        competition.</p>
+    <h1>Extra information</h1>
+      <p>More help has to be added</p>
+      <h2>Known issues</h2>
+        <p>Some things are currently not possible with this version of the
+        software.</p>
+        <ul>
+          <li>Unable to enter the competition when there is only 1 athlete in
+            the club</li>
+          <li>&quot;Add record&quot; for an athlete will delete previous added
+            fields unless saved first</li>
+          <li><span class="text-warning">Entry times should ALWAYS be in the
+            HH:MM:SS.ss format or NT, otherwise it can not be processed by the
+            organisation</span></li>
+        </ul>
+  </body>
+</html>
+<!-- vim: set ai ts=2 sw=2 et: -->

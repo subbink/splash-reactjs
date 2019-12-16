@@ -1,0 +1,143 @@
+/*
+ * splash-js CSS
+ * Copyright (C) 2016 - Stefan Ubbink
+ *
+ * Creative Commons License BY-NC-SA
+ * http://creativecommons.org/licenses/by-nc-sa/4.0/
+ */
+/* Settings to overwrite the bootstrap styles */
+body {
+  background-color: white;
+  overflow: auto; /* needed for float clearfix */
+}
+
+a {
+  color: #f57d32;
+}
+
+a:hover,
+a:focus {
+  color: #f57d32;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.btn-group-vertical > .btn:first-child:not(:last-child),
+.btn-group-vertical {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-info {
+  color: #333333;
+  background-color: #e06a02;
+  border-color: #333333;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info,
+.btn-info:active:hover,
+.btn-info.active:hover,
+.open > .dropdown-toggle.btn-info:hover,
+.btn-info:active:focus,
+.btn-info.active:focus,
+.open > .dropdown-toggle.btn-info:focus,
+.btn-info:active.focus,
+.btn-info.active.focus,
+.open > .dropdown-toggle.btn-info.focus {
+  color: black;
+  background-color: #f57d32;
+  border-color: #333333;
+}
+
+.help-about {
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 75%;
+  color: white;
+  background-color: #333333;
+  z-index: 10;
+}
+
+.splash-js-logo {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  opacity: 0.3;
+  z-index: -10;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 75%;
+  color: white;
+  background-color: #333333;
+  z-index: 10;
+}
+
+Xiv.meeting {
+  /*position: fixed;
+  position: absolute;*/
+  float: left;
+  top: 0;
+  left: 0;
+  border: 3px solid orange;
+  /*height: 300px;*/
+  padding-bottom: 5px;
+}
+
+Xiv.clubs {
+  /*position: fixed;*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 3px solid green;
+}
+
+div.dumpData {
+  /*position: fixed;
+  position: absolute;
+  top: 0;
+  right: 0;*/
+  border: 3px solid gray;
+}
+
+#displayDataButton {
+  /*position: fixed;
+  bottom: 0;
+  left: 0;*/
+  border: 3px solid black;
+  z-index: -99;
+  opacity: 0.5;
+}
+
+#debugPart {
+  display: none;
+}
+
+/* 
+ * some color definitions:
+ * orange = rgb(224, 106, 2) = e06a02;
+ * light orange = rgb(245, 125, 50) = f57d32;
+ * dark = rgb(51, 51, 51) = 333333;
+ * very light grey = rgb(241, 241, 241) = f1f1f1;
+ * light grey = rgb(153, 153, 153) = 999999;
+ * light blue = rgb(168, 205, 227) = a8cde3;
+ * blue = rgb(106, 188, 225) = 6abce1;
+ * dark blue = rgb(0, 136, 204) = 0088cc;
+ * light yellow = rgb(255, 255, 204) = ffffcc;
+ */
+/* vim: set et ai ts=2 sw=2 fdm=marker fmr={,}: */
